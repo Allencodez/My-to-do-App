@@ -127,6 +127,7 @@ input::placeholder {
   color: var(--background-color);
   cursor: pointer;
   margin-top: 10px;
+  margin-bottom: 8px;
   width: 100%;
 }
 
@@ -212,6 +213,11 @@ input[type="checkbox"] {
     font-size: 25px;
   }
 
+  input::placeholder {
+    color: var(--primary-color);
+    font-size: 0.8em;
+    margin-right: 5px;
+  }
   .delete-button:hover {
     color: red;
   }
